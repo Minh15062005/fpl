@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 0.7vw;
+}
+
+.boxcenter {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.row {
+    float: left;
+    width: 100%;
+}
+
+.mb {
+    margin-bottom: 30px;
+}
+
+.demo {
+    background-color: antiquewhite;
+    min-height: 100px;
+}
+
+.header {
+    background-color: rgb(215, 246, 250);
+    border: 1px solid #090;
+    color: blue;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: rgb(215, 246, 250);
+    border: 1px solid #090;
+    font-size: 0.8vw;
+    color: blue;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.header h1 {
+    margin: 20px;
+    font-size: 1.2vw;
+}
+
+.menu {
+    background-color: rgb(3, 3, 3);
+    color: rgb(89, 89, 94);
+    border-radius: 5px;
+}
+
+.mr {
+    margin-right: 2%;
+
+}
+
+.boxphai {
+    float: left;
+    width: 24%;
+}
+
+.boxtrai {
+    float: left;
+    width: 74%;
+}
+
+.boxtitle {
+    color: #333;
+    padding: 10px;
+    background-color: #eee;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px #ccc solid;
+}
+
+.boxconten {
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.boxconten2 {
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+    /* min-height: 200px; */
+    background-color: #eee;
+}
+
+.boxfooter {
+    padding: 10px;
+    background-color: #eee;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.banner {
+    min-height: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+.banner img {
+    height: 300px;
+}
+
+.boxsp {
+    float: left;
+    width: 32%;
+    min-height: 300px;
+    border: 1px #eee solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+    img {
+        width: 100%;
+        min-height: 230px;
+        text-align: center;
+    }
+}
+
+.menu ul {
+    padding: 10px;
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 0px 15px;
+}
+
+.menu ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.menu ul li a:hover {
+    color: #fdf1f1;
+    font-size: 0.8vw;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+/* box tài khoản */
+.formtaikhoan {
+    line-height: 150%;
+}
+
+.formtaikhoan input[type="text"] .formtaikhoan input[type="password"],
+.formconten input[type="text"] {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.formtaikhoan input[type="checkbox"] {
+    border-radius: 5px;
+}
+
+.formtaikhoan input[type="submit"],
+.formconten input[type="submit"],
+.formconten input[type="reset"],
+.formconten input[type="button"] {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+.formtaikhoan input[type="submit"]:hover,
+.formconten input[type="submit"]:hover,
+.formconten input[type="reset"]:hover,
+.formconten input[type="button"]:hover {
+    background-color: #ccc;
+}
+
+.formtaikhoan li a {
+    color: blue;
+    text-decoration: none;
+}
+
+.formtaikhoan li a:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+
+.headeradmin {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #666;
+    padding: 10px 20px;
+}
+
+.headeradmin h1 {
+    font-size: 2vw;
+}
+
+.formtitle {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #666;
+    padding: 10px 20px;
+}
+
+.formconten {
+    padding: 20px 0px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    /* border: 1px solid #999; */
+}
+table th {
+    padding:  20px;
+background-color: #ccc;
+
+}
+table td {
+    padding: 10px 20px;
+    border: 1px solid #999;
+
+}
+
